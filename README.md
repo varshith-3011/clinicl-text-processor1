@@ -45,6 +45,10 @@ python -m spacy download en_core_web_sm
 
 ## Running the Application
 
+## API Keys
+
+No API keys are required to run the Clinical Text Processing Agent.
+
 Start the FastAPI server using Uvicorn:
 
 ```bash
