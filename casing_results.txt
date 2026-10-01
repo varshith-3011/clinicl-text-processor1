@@ -1,0 +1,62 @@
+
+======================================================================
+ORIGINAL: The patient has Hypertension and Type 2 Diabetes.
+LOWERED:  the patient has hypertension and type 2 diabetes.
+  Disease (original): [('H', 1.0), ('##ypertension', 0.847), ('Type 2 Diabetes', 0.997)]
+  Disease (lower):    [('hypertension', 0.964), ('type 2 diabetes', 1.0)]
+  Medication (original): [('Hypertension', 0.971)]
+  Medication (lower):    [('hypertension', 0.885), ('type 2', 0.357)]
+
+======================================================================
+ORIGINAL: Patient presents with Pneumonia and Chronic Obstructive Pulmonary Disease.
+LOWERED:  patient presents with pneumonia and chronic obstructive pulmonary disease.
+  Disease (original): [('Pneumonia', 0.914), ('Ch', 0.999), ('##ronic Obstructive Pulmonary Disease', 1.0)]
+  Disease (lower):    [('pneumonia', 1.0), ('chronic obstructive pulmonary disease', 1.0)]
+  Medication (original): [('Pneumonia and', 0.906), ('Chronic Obstruct', 0.953)]
+  Medication (lower):    [('pneumonia', 0.385), ('chronic obstructive pulmonary disease', 0.814)]
+
+======================================================================
+ORIGINAL: The patient is taking Metformin and Lisinopril.
+LOWERED:  the patient is taking metformin and lisinopril.
+  Medication (original): [('taking', 0.436), ('Metformin and', 0.866), ('Lisinopril', 0.997)]
+  Medication (lower):    [('taking', 0.437), ('metformin and', 0.955), ('lisinopril', 0.997)]
+
+======================================================================
+ORIGINAL: The patient was prescribed Amoxicillin.
+LOWERED:  the patient was prescribed amoxicillin.
+  Medication (original): [('prescribed', 0.5), ('Amoxicillin', 0.996)]
+  Medication (lower):    [('prescribed', 0.541), ('amoxicillin', 0.912)]
+
+======================================================================
+ORIGINAL: An MRI and CBC were ordered.
+LOWERED:  an mri and cbc were ordered.
+  Medication (original): []
+  Medication (lower):    [('m', 0.335), ('cbc', 0.492)]
+  Test (original): [('an mri', 0.998), ('cbc', 0.998)]
+  Test (lower):    [('an mri', 0.998), ('cbc', 0.998)]
+
+======================================================================
+ORIGINAL: The patient denies Fever but reports Cough.
+LOWERED:  the patient denies fever but reports cough.
+  Disease (original): [('Fever', 1.0), ('Cough', 0.998)]
+  Disease (lower):    [('fever', 1.0), ('cough', 1.0)]
+  Symptom (original): [('fever', 1.0), ('cough', 1.0)]
+  Symptom (lower):    [('fever', 1.0), ('cough', 1.0)]
+  Medication (original): [('Fever', 0.135)]
+  Medication (lower):    [('denies fever', 0.334), ('reports', 0.206), ('cough', 0.24)]
+
+======================================================================
+ORIGINAL: Patient has a history of Congestive Heart Failure.
+LOWERED:  patient has a history of congestive heart failure.
+  Disease (original): [('Congestive Heart Failure', 0.993)]
+  Disease (lower):    [('congestive heart failure', 0.997)]
+  Medication (original): [('Con', 0.524)]
+  Medication (lower):    [('of congestive heart failure', 0.646)]
+
+======================================================================
+ORIGINAL: The doctor suspects Tuberculosis.
+LOWERED:  the doctor suspects tuberculosis.
+  Disease (original): [('Tuberculosis', 1.0)]
+  Disease (lower):    [('tuberculosis', 1.0)]
+  Medication (original): [('Tuberculosis.', 0.857)]
+  Medication (lower):    [('suspects tuberculosis', 0.271)]
