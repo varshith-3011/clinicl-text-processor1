@@ -1,0 +1,15 @@
+{
+  "clinical_text": "A 45-year-old patient presents with fever, persistent cough, and shortness of breath for the past five days. The patient has no history of diabetes or hypertension and is currently taking aspirin. A chest X-ray was performed.",
+  "diseases": [],
+  "symptoms": [
+    "fever",
+    "persistent cough",
+    "shortness of breath"
+  ],
+  "medications": [
+    "aspirin"
+  ],
+  "tests": [
+    "chest X-ray"
+  ]
+}
